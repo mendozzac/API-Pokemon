@@ -1,4 +1,4 @@
-import cors from "cors";
+const cors = require("cors");
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("pokemon.json");
